@@ -3,7 +3,18 @@ package main;
 import java.io.*;
 import java.util.Scanner;
 
+/**
+ * This class is reponsible for calculate the mean of score 
+ * from a score file
+ * 
+ */
 public class FileMean {
+	/**
+	 * 
+	 * Find and prints the mean  score from score file
+	 * 
+	 * @param fileName the name of the file containing score
+	 */
  public void findMean(String fileName) {
      float sumOfScores = 0.0f;
      int numberOfScores = 0;
